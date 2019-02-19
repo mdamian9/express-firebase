@@ -44,6 +44,6 @@ app.use((err, req, res, next) => {
   res.render('error');
 });
 
-console.log('🌎 ==> Express is now on port 3000!');
+console.log('Express app is now on port 3000!')
 
 module.exports = app;
